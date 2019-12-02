@@ -11,13 +11,19 @@ const FeatureGrid = ({ gridItems }) => (
             <div
               style={{
                 width: '240px',
-                display: 'inline-block',
+                display: 'inline-block'
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
             </div>
           </div>
           <p>{item.text}</p>
+          <ul>
+            {item.tags &&
+              item.tags.map(tag => {
+                return <li>{tag}</li>
+              })}
+          </ul>
         </section>
       </div>
     ))}
@@ -28,9 +34,9 @@ FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-      text: PropTypes.string,
+      text: PropTypes.string
     })
-  ),
+  )
 }
 
 export default FeatureGrid

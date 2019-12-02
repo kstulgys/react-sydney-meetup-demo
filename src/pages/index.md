@@ -6,7 +6,10 @@ heading: Our amazing talks for December
 subheading: Best meetup in Sydney
 mainpitch:
   title: What we're about
-  description: >-
+  description: |
+
+    * hello this his list text 
+
     React is taking the web development world by storm! Thanks to Facebook's
     excellent engineering team, and the countless public contributors helping
     not only with react core, but the entire react community, we can all help
@@ -20,6 +23,9 @@ intro:
   blurbs:
     - image: /img/business-coffee-composition-computer-265667.jpg
       text: "Gatsby \U0001F496 Netlify CMS\nManage your website/portfolio/blog/...you name it... content with ease.\n\nIn this talk I will show you how to: - set up Gatsby with Netlify CMS. - add content via Netlify CMS admin panel with different widgets (text, markdown, select, etc.). - query data with graphql layer in Gatsby and render the content. - workflow pushing new changes to the website."
+      tags:
+        - React
+        - Gatsby
     - image: >-
         /img/man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
       text: >-
@@ -36,6 +42,8 @@ intro:
         importance of unit testing and the tools I use for testing React. As
         part of the talk I will work through a trivial example to demonstrate
         how to do TDD.
+      tags:
+        - TDD
     - image: /img/coding-computer-data-depth-of-field-577585.jpg
       text: >-
         Concurrent Mode
@@ -48,6 +56,8 @@ intro:
         example application which progressively introduces each of the API's
         while showing what benefits they bring, the patterns we can leverage,
         and the gotchas to watch out for.
+      tags:
+        - React
   heading: What we offer
   description: |
     We have 3 talks
@@ -68,4 +78,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
